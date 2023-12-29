@@ -144,3 +144,10 @@
 // const { age, name = "ゲスト" } = myProfile;
 // console.log(age);
 // console.log(name);
+
+// オブジェクトの省略記法
+// const name = "naoto";
+// const age = 26;
+
+// const myProfile = { name, age };
+// console.log(myProfile);
