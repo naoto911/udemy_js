@@ -675,6 +675,18 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 // const [name, age] = myProfile;
 // const message2 = `名前は${name}です。年齢は${age}歳です。`;
 // console.log(message2);
+// デフォルト値
+// const sayHello = (name) => console.log(`こんにちは!${name}さん`);
+// sayHello("naoto");
+// sayHello();
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは!${name}さん`);
+// sayHello();
+// const myProfile = {
+//   age: 31,
+// };
+// const { age, name = "ゲスト" } = myProfile;
+// console.log(age);
+// console.log(name);
 
 },{}]},["iZQ9B","aR1JP"], "aR1JP", "parcelRequirebaba")
 
