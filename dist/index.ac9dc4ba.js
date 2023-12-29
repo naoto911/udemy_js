@@ -624,6 +624,41 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 // テンプレート文字列を用いた方法
 // const message2 = `私の名前は${name}です。年齢は${age}歳です。`;
 // console.log(message2);
+// アロー関数
+// 従来の関数定義
+// function func1(str) {
+//   return str;
+// }
+// console.log(func1("func1です"));
+// const func1 = function (str) {
+//   return str;
+// };
+// console.log(func1("func1です"));
+// アロー関数を用いる場合
+// const func2 = (str) => {
+//   return str;
+// };
+// console.log(func2("func2です"));
+// 引数が1つの場合は()を省略してもOK
+// const func2 = (str) => {
+//   return str;
+// };
+// console.log(func2("func2です"));
+// 関数の中身が単一の返却だけの場合省略記法が使える
+// const func2 = (str) => str;
+// console.log(func2("func2です"));
+// const func3 = (num1, num2) => {
+//   return num1 + num2;
+// };
+// console.log(func3(1, 2));
+// const func3 = (num1, num2) => num1 + num2;
+// console.log(func3(1, 2));
+// // 関数の結果として何かしらのオブジェクトを返却するが、オブジェクトは複数行にわたる記述の場合にreturn記述を省略できる
+// const func3 = (num1, num2) => ({
+//   hoge: num1,
+//   fuge: num2,
+// });
+// console.log(func3(1, 2));
 
 },{}]},["iZQ9B","aR1JP"], "aR1JP", "parcelRequirebaba")
 
